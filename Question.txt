@@ -1,0 +1,32 @@
+Kathmandu University
+Department of Computer Science and Engineering
+Operating System(COMP307)
+
+You are asked to simulate the banking model as shown in the figure.  The customer enters the line and waits for his/her turn. The FCFS scheduling algorithm runs in the queuing system and the customer will visit the free available teller as shown in the figure. In the teller the customer are served with random service time. The customer will exit the system after being served.
+
+
+**figure**
+
+Write a program in the programming language you prefer to simulate the above scenario. Develop a model for random arrival process and three similar modules for the Tellers. Implement the thread concept to simulate the teller. Your output should look like the below.
+Customer1 enters the Queue
+Customer2 enters the Queue
+Customer 1 is in Teller1
+ Customer3 enters the Queue
+Customer4 enters the Queue
+Customer 2 is in Teller2
+Customer 1 leaves the Teller1
+………………………………………..
+Queue is FULL.
+Customer N is in Teller2
+………………………….
+Customer M is in Teller……………… and so on until we press any key.
+
+On the second part of the program assume that each customer is being assigned with the random Teller time and with the consideration of the assigned time implement the Shortest Job First algorithm. On the same concept implement the Shortest Run time first considering the dynamic random arrival time of the Customer.
+
+On the Third part of the program assume that each customer is being assigned with the random Teller time and with the consideration of the fixed quantum time implement the Round Robin algorithm.
+
+
+Submission Criteria: You are asked to submit the hard copy of the code with printed part of the output. Your program should calculate Average Turnaround time, Average waiting Time and also Average Response Time and compare with the graphical view. Interpret the result.
+
+
+
